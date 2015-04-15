@@ -32,9 +32,10 @@ public class Card {
      *                  containing the suit of the card
      * @param cardPointValue an <code>int</code> value
      *                  containing the point value of the card
-     */
-    public Card(String cardRank, String cardSuit, int cardPointValue) {
-
+     */public Card(String cardRank, String cardSuit, int cardPointValue) {
+       String rank = cardRank;
+       String suit = cardSuit;
+       int pointValue = cardPointValue;
     }
 
 
